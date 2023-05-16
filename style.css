@@ -1,0 +1,131 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #f1c40f;
+  }
+  
+  /* Main Styles */
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom:}
+    /* Product List Styles */
+.product-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2rem;
+    }
+    
+    .product-list li {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: center;
+    }
+    
+    .product-list li img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    }
+    
+    .product-list li h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    }
+    
+    .product-list li p {
+    margin-bottom: 1rem;
+    }
+    
+    .btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #f1c40f;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    }
+    
+    .btn:hover {
+    background-color: #e67e22;
+    }
+    
+    /* Footer Styles */
+    footer {
+    background-color: #f1c40f;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    }
+    
+    /* Media Queries */
+    @media screen and (max-width: 768px) {
+    nav ul {
+    flex-direction: column;
+    }
+    
+    nav ul li {
+    margin: 1rem 0;
+    }
+    
+    .product-list {
+    grid-template-columns: 1fr;
+ 
+    }
+  } 
+
+  
